@@ -1,6 +1,6 @@
-%ASBconV2fig31to9.m
+%ASB3fig4_1.m
 %Baseline, convergence, two bin, perisitence, passive R 
-%K. I. Carlaw Aug, 2022
+%Kenneth I. Carlaw Aug, 2023
 
 clear
 
@@ -13,15 +13,15 @@ MM=200;
 Block=30000;
 
     %baseline parameterization
-F=1;        %saction for ASB
+F=1;        % sanction for ASB
 gam=0.8;    % max objective apprehension prob.
-aa=1;       %shape poarameter 1 for Beta distribution (Bayesian) 
-bb=0.25;    %shape poarameter 2 for Beta distribution (Bayesian)
-mu=0.6;     %mean value of g, individual benefit from ASA
-sig=0.2;    %varance of g 
-lam=5;      %socail cost parameter for ASB 
-rho=2;      %unit cost of enforcement resources
-Z=2;        %z-history length
+aa=1;       % parameter 1 for Beta distribution (Bayesian) 
+bb=0.25;    % parameter 2 for Beta distribution (Bayesian)
+mu=0.6;     % mean value of g, individual benefit from ASA
+sig=0.2;    % varance of g 
+lam=5;      % social cost parameter for ASB 
+rho=2;      % unit cost of enforcement resources
+Z=2;        % subjective prob history length
 
 BinE=50; % Bin edge passive policies
 
@@ -384,8 +384,6 @@ view(90,-90)
 nexttile
 stem(lag39(2:4),acf39(2:4),'Filled','Color','k')
 xlim([0 4]);
-%title('Autocorrelation in violations')
-%xlabel('Lags')
 nexttile([1 3])
 plot(vcon(41,Block-10000:Block-5000),'Color',[0.5 0.5 0.5])
 ylabel('R = 40','FontSize',20)
@@ -399,8 +397,6 @@ view(90,-90)
 nexttile
 stem(lag40(2:4),acf40(2:4),'Filled','Color','k')
 xlim([0 4]);
-%title('Autocorrelation in violations')
-%xlabel('Lags')
 nexttile([1 3])
 plot(vcon(42,Block-10000:Block-5000),'Color',[0.5 0.5 0.5])
 ylabel('R = 41','FontSize',20)
@@ -414,8 +410,6 @@ view(90,-90)
 nexttile
 stem(lag41(2:4),acf41(2:4),'Filled','Color','k')
 xlim([0 4]);
-%title('Autocorrelation in violations')
-%xlabel('Lags')
 nexttile([1 3])
 plot(vcon(43,Block-10000:Block-5000),'Color',[0.5 0.5 0.5])
 ylabel('R = 42','FontSize',20)
@@ -431,7 +425,6 @@ stem(lag42(2:4),acf42(2:4),'Filled','Color','k')
 xlim([0 4]);
 nexttile([1 3])
 plot(vcon(44,Block-10000:Block-5000),'Color',[0.5 0.5 0.5])
-%title('Panel 6: R = 43')
 ylim([0 100])
 xlim([0 5000])
 ylabel('R = 43','FontSize',20)

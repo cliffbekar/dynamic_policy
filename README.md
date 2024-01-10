@@ -19,8 +19,8 @@ Contents:
     4. The space of history dependent policies
     5. Generality of deterrence policy analysis
 6. Computational tools
-  1. Benchmarking the simulator
-  2. Search algorithm for history dependent policies
+    1. Benchmarking the simulator
+    2. Search algorithm for history dependent policies
 7. Replicating figures and core results
 8. Equilibrium selection (Pareto-dominant equilibria) 38
 

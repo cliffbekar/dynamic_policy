@@ -22,5 +22,5 @@ Contents:
     1. Benchmarking the simulator
     2. Search algorithm for history dependent policies
 7. Replicating figures and core results
-8. Equilibrium selection (Pareto-dominant equilibria) 38
+8. Equilibrium selection (Pareto-dominant equilibria)
 

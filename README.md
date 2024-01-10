@@ -4,10 +4,7 @@ This appendix provides empirical evidence, robustness testing, technical descrip
 
 Links to the relevant code bases are provided where simulations are discussed.
 
-### Notes for Online Appendix
-
-Contents:
-
+### Contents of Online Appendix
 1. Road map to the appendix
 2. Evidence that deterrence is a dynamic process
 3. Empirical signatures of a dynamic deterrence process

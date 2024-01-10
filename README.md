@@ -13,11 +13,11 @@ Contents:
 3. Empirical signatures of a dynamic deterrence process
 4. Dynamic signatures in US and Canadian crime data
 5. Robustness
-  1. General nature of positive feedback (CLIFFSET and DROP)
-  2. Generalizing the modeling assumptions
-  3. The space of history independent policies
-  4. The space of history dependent policies
-  5. Generality of deterrence policy analysis
+    1. General nature of positive feedback (CLIFFSET and DROP)
+    2. Generalizing the modeling assumptions
+    3. The space of history independent policies
+    4. The space of history dependent policies
+    5. Generality of deterrence policy analysis
 6. Computational tools
   1. Benchmarking the simulator
   2. Search algorithm for history dependent policies

@@ -4,15 +4,16 @@ This appendix provides empirical evidence, robustness testing, technical descrip
 
 ### Notes for Online Appendix
 
-Contents
-1 Road map to the appendix 2
-2 Evidence that deterrence is a dynamic process 3
-2.1 Empirical signatures of a dynamic deterrence process . . . . . . . . . . . . . 3
-2.2 Dynamic signatures in US and Canadian crime data . . . . . . . . . . . . . . 7
-3 Robustness 12
-3.1 General nature of positive feedback (CLIFFSET and DROP) . . . . . . . . . 12
-3.2 Generalizing the modeling assumptions . . . . . . . . . . . . . . . . . . . . . 16
-3.3 The space of history independent policies . . . . . . . . . . . . . . . . . . . . 18
+Contents:
+
+1 Road map to the appendix
+2 Evidence that deterrence is a dynamic process
+3 Empirical signatures of a dynamic deterrence process
+4 Dynamic signatures in US and Canadian crime data
+5 Robustness
+  1 General nature of positive feedback (CLIFFSET and DROP) . . . . . . . . . 12
+7 Generalizing the modeling assumptions . . . . . . . . . . . . . . . . . . . . . 16
+8 The space of history independent policies . . . . . . . . . . . . . . . . . . . . 18
 3.4 The space of history dependent policies . . . . . . . . . . . . . . . . . . . . . 19
 3.5 Generality of deterrence policy analysis . . . . . . . . . . . . . . . . . . . . . 24
 4 Computational tools 28
